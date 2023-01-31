@@ -1,0 +1,15 @@
+[package]
+name = "conch_scripts"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+conch = {path = "../conch" }
+conch_common = { path = "../conch_common" }
+nu-cli = "0.74.0"
+nu-command = "0.74.0"
+nu-engine = "0.74.0"
+nu-parser = "0.74.0"
+nu-protocol = "0.74.0"

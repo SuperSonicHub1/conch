@@ -1,0 +1,13 @@
+[package]
+name = "conch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+conch_macros = { path = "../conch_macros" }
+conch_common = { path = "../conch_common" }
+nu-cli = "0.74.0"
+nu-command = "0.74.0"
+nu-engine = "0.74.0"
+nu-parser = "0.74.0"
+nu-protocol = "0.74.0"

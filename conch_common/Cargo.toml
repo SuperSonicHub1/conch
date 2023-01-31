@@ -1,0 +1,9 @@
+[package]
+name = "conch_common"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+miette = "5.5.0"
+nu-parser = "0.74.0"
+nu-protocol = "0.74.0"

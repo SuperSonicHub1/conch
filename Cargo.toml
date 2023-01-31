@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "conch",
+    "conch_common",
+    "conch_macros",
+    "conch_scripts",
+]

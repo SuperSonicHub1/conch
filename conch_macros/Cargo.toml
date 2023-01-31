@@ -1,0 +1,17 @@
+[package]
+name = "conch_macros"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+conch_common = { path = "../conch_common" }
+nu-cli = "0.74.0"
+nu-command = "0.74.0"
+nu-engine = "0.74.0"
+nu-parser = "0.74.0"
+nu-protocol = "0.74.0"
+proc-macro-error = "1.0.4"
+quote = "1.0.23"
